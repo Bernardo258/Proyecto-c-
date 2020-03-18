@@ -1,10 +1,6 @@
 # Proyecto-c-
 proyecto de la universidad para marketful
 
-
-
-
-
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
@@ -20,7 +16,7 @@ int main(){
 	system( "color 30" );
 	do{
 	//gotoxy ("23,4");
-	cout<<"\t\t\t*********************¿Cual juego quieres jugar?********************* \n"<<"\t\t\t\t\t\t 1.-Adivinanzas \n"<<"\t\t\t\t\t\t 2.-Adivina el numero \n"<<"\t\t\t\t\t\t 3.-ecuaciones\n"<<"\t\t\t\t\t\t 4.-Signos del Zodiaco\n"<<"\t\t\t\t\t\t 5.- Recomendaciones de Peluclas\n"<<"\t\t\t\t\t\t 6.- Salir\n";
+	cout<<"\t\t\t*********************�Cual juego quieres jugar?********************* \n"<<"\t\t\t\t\t\t 1.-Adivinanzas \n"<<"\t\t\t\t\t\t 2.-Adivina el numero \n"<<"\t\t\t\t\t\t 3.-ecuaciones\n"<<"\t\t\t\t\t\t 4.-Signos del Zodiaco\n"<<"\t\t\t\t\t\t 5.- Recomendaciones de Peluclas\n"<<"\t\t\t\t\t\t 6.- Salir\n";
 	cin>>opc;
 	system("cls");
 	switch (opc){
@@ -31,7 +27,7 @@ int main(){
 		system("cls");
 		switch(opc3){
 			case 1:	
-				cout<<"\t\t\t\t\t ¿Por que se suicido el libro de matematicas?\n";
+				cout<<"\t\t\t\t\t �Por que se suicido el libro de matematicas?\n";
 				cout<<"\t\t\t\t\t\t 1)Porque reprobo el cuatrimestre \n";
 				cout<<"\t\t\t\t\t\t 2)Porque nadie lo leia \n";
 				cout<<"\t\t\t\t\t\t 3)Porque tenia muchos problemas\n";
@@ -39,7 +35,7 @@ int main(){
 				cin>>r1;
 					if(r1==3)
 					{
-						cout<<"\t\t\t\t\t ¡¡¡¡¡¡¡¡¡¡Muy Bien!!!!!!!! tu si eres pro \n";
+						cout<<"\t\t\t\t\t ����������Muy Bien!!!!!!!! tu si eres pro \n";
 					}			
 					else
 					{
@@ -49,7 +45,7 @@ int main(){
 			system("cls");		
 			break;
 			case 2:
-				cout<<"\t\t\t\t ¿Qué es algo que siempre cae, y nunca se rompe?\n";
+				cout<<"\t\t\t\t �Qu� es algo que siempre cae, y nunca se rompe?\n";
 				cout<<"\t\t\t\t\t\t 1)el amor\n";
 				cout<<"\t\t\t\t\t\t 2)la cascada\n";
 				cout<<"\t\t\t\t\t\t 3)la determinacion\n";
@@ -57,7 +53,7 @@ int main(){
 				cin>>r2;
 					if(r2==2)
 						{
-						cout<<"\t\t\t\t\t¡¡¡¡¡¡¡¡¡¡Muy Bien!!!!!!!! tu si eres pro \n";
+						cout<<"\t\t\t\t\t����������Muy Bien!!!!!!!! tu si eres pro \n";
 						}			
 							else
 							{
@@ -67,7 +63,7 @@ int main(){
 			system("cls");
 			break;
 			case 3:
-				cout<<"Soy duro y bastante frio, cuando me tocas me sonrojo y si ahorita me ves, al rato, solo te mojo. ¿Quien soy?\n";
+				cout<<"Soy duro y bastante frio, cuando me tocas me sonrojo y si ahorita me ves, al rato, solo te mojo. �Quien soy?\n";
 				cout<<"\t\t\t\t\t\t 1)El amor de ella\n";
 				cout<<"\t\t\t\t\t\t 2)El hielo\n";
 				cout<<"\t\t\t\t\t\t 3)Tu compa\n";
@@ -75,7 +71,7 @@ int main(){
 				cin>>r3;
 					if(r3==2)
 						{
-						cout<<"\t\t\t\t\t¡¡¡¡¡¡¡¡¡¡Muy Bien!!!!!!!! tu si eres pro \n";
+						cout<<"\t\t\t\t\t����������Muy Bien!!!!!!!! tu si eres pro \n";
 						}			
 							else
 							{
@@ -85,7 +81,7 @@ int main(){
 			system("cls");
 			break;
 	}
-	cout<<"¿Quieres volver al menu principal? \n";
+	cout<<"�Quieres volver al menu principal? \n";
 	cout<<"1.-Si\n";
 	cout<<"2.-No\n";
 	cin>>opc1;
@@ -94,7 +90,7 @@ int main(){
 			break;
 	case 2: //*****aqui empieza la adivinanza del numero 
 	cout<<"\t\t\t\t\t\t**JUEGO ADIVINA EL NUMERO**\n\n\n";
-   	cout<<"\n \t\t\t\t\t\t¿Te gustaria jugar? \n";
+   	cout<<"\n \t\t\t\t\t\t�Te gustaria jugar? \n";
     cout<<"\t\t\t\t\t\t1.- Comenzar \n";
     cout<<"\t\t\t\t\t\t2.- Salir \n";
     cin>>opc;
@@ -139,7 +135,7 @@ int main(){
 				cin>>r1;
 					if(r1==3)
 					{
-						cout<<"\t\t\t\t\t¡¡¡¡¡¡¡¡¡¡Muy Bien!!!!!!!! tu si eres pro \n";
+						cout<<"\t\t\t\t\t����������Muy Bien!!!!!!!! tu si eres pro \n";
 					}			
 					else
 					{
@@ -157,7 +153,7 @@ int main(){
 				cin>>r2;
 					if(r2==2)
 						{
-						cout<<"\t\t\t\t\t¡¡¡¡¡¡¡¡¡¡Muy Bien!!!!!!!! tu si eres pro \n";
+						cout<<"\t\t\t\t\t����������Muy Bien!!!!!!!! tu si eres pro \n";
 						}			
 							else
 							{
@@ -175,7 +171,7 @@ int main(){
 				cin>>r3;
 					if(r3==4)
 						{
-						cout<<"\t\t\t\t\t¡¡¡¡¡¡¡¡¡¡Muy Bien!!!!!!!! tu si eres pro \n";
+						cout<<"\t\t\t\t\t����������Muy Bien!!!!!!!! tu si eres pro \n";
 						}			
 							else
 							{
@@ -318,3 +314,7 @@ int main(){
 			}while (opc!=6);
 			return 0;
 	}
+
+
+
+
