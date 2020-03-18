@@ -1,6 +1,10 @@
 # Proyecto-c-
 proyecto de la universidad para marketful
 
+
+
+
+
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
